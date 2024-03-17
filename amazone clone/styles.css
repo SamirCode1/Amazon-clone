@@ -175,3 +175,71 @@ footer{
    background-color: #131921;
    padding: 20px 60px;
 }
+
+
+/* Media Query for screens between 600px and 700px */
+@media screen and (max-width: 700px) {
+  nav {
+    padding: 8px 10px;
+  }
+  .nav-country,
+  .nav-lang,
+  .nav-cart {
+    display: none;
+  }
+  .nav-search {
+    margin-left: 5px;
+  }
+  .nav-search-input {
+    padding-left: 10px;
+  }
+  .nav-bottom {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .box-row {
+    margin: 10px 15px;
+  }
+  .box-col {
+    max-width: 48%;
+  }
+}
+
+/* Media Query for screens below 600px */
+@media screen and (max-width: 600px) {
+  .nav-search,
+  .nav-search-category,
+  .nav-search-icon {
+    padding: 8px;
+  }
+  .nav-search-input {
+    padding-left: 15px;
+  }
+  .nav-search-icon {
+    padding: 8px 10px;
+  }
+  .nav-text {
+    margin: 10px;
+  }
+  .nav-text p {
+    font-size: 12px;
+  }
+  .nav-text h1 {
+    font-size: 16px;
+  }
+  .nav-bottom {
+    font-size: 14px;
+  }
+  .box-col {
+    max-width: 100%;
+  }
+  .header-slider a {
+    padding: 3vh 1vw;
+    font-size: 16px;
+  }
+  footer {
+    padding: 10px 30px;
+  }
+}
+
+
